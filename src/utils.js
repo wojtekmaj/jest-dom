@@ -227,6 +227,10 @@ function compareArraysAsSet(arr1, arr2) {
   return undefined
 }
 
+function isEqualWith(a, b, customizer) {
+  return a === b || customizer(a, b) === true
+}
+
 export {
   HtmlElementTypeError,
   NodeTypeError,
@@ -241,4 +245,5 @@ export {
   getSingleElementValue,
   toSentence,
   compareArraysAsSet,
+  isEqualWith,
 }

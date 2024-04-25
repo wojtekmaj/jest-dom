@@ -1,9 +1,9 @@
-import isEqualWith from 'lodash/isEqualWith'
 import {
   checkHtmlElement,
   getMessage,
   getSingleElementValue,
   compareArraysAsSet,
+  isEqualWith,
 } from './utils'
 
 export function toHaveValue(htmlElement, expectedValue) {

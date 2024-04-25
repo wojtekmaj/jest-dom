@@ -1,9 +1,9 @@
-import isEqualWith from 'lodash/isEqualWith'
 import escape from 'css.escape'
 import {
   checkHtmlElement,
   getSingleElementValue,
   compareArraysAsSet,
+  isEqualWith,
 } from './utils'
 
 // Returns the combined value of several elements that have the same name
